@@ -15,19 +15,20 @@ Códigos dos exercícios do laboratório da matéria de Engenharia de Software
 ## ⚙️ Instale antes de tentar executar os projetos)
  - [Node](https://nodejs.org/)
  
-## 🚀️ Executando o projeto
+## 🚀️ Executando os projetos
 
 1. Clone o repositório: 
 ```bash
 git clone https://github.com/FabioFiorita/C214-Lab.git && cd C214-Lab
 ```
+2. Entre na aula escolhida
 
-2. Instale todas as depencências
+3. Instale todas as depencências
 ```bash
 npm install
 ```
 
-3. Rode o aplicativo
+4. Rode o aplicativo
 ```bash
 npm start
 ```
