@@ -28,7 +28,7 @@ git clone https://github.com/FabioFiorita/C214-Lab.git && cd C214-Lab
 npm install
 ```
 
-4. Rode o aplicativo
+4. Rode o projeto
 ```bash
 npm start
 ```
