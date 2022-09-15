@@ -1,11 +1,11 @@
-# C214-Lab
+# API
 
 API de filmes
 
 ![NPM version](https://img.shields.io/npm/v/npm?label=npm%20version&style=for-the-badge)
 
 
-- [C214-Lab](#c214-lab)
+- [API](#api)
   - [⚙️ Instale antes de tentar executar os projetos)](#️-instale-antes-de-tentar-executar-os-projetos)
   - [🚀️ Executando os projetos](#️-executando-os-projetos)
   - [💻 Como Rodar](#-como-rodar)
