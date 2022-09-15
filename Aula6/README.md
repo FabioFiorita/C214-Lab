@@ -40,9 +40,10 @@ http://localhost:4000/movie/create
 ```
 ```json
 {
-    "title": "Não, Não Olhe",
-    "launchDate": "25/08/2022",
-    "mainActor": "Daniel Kaluuya"
+    "title": "Nope",
+    "launchDate": "22/09/2022",
+    "mainActor": "Daniel Kaluuya",
+    "movieProducer": "Monkeypaw Productions"
 }
 ```
 - [x] Busca de filmes
