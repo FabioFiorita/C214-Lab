@@ -35,3 +35,4 @@ npm start
 ## 📚 Aulas
 -  [Aula 2 - Revisao de Orientacao a Objetos](Aula2)
 -  [Aula 3 - Gerência de dependencias](Aula3)
+-  [Aula 6 - API](Aula6)
