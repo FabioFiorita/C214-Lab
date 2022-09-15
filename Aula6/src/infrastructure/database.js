@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const credentials = require('../config/auth');
+const credentials = require('../auth.json');
 
-const uri = `mongodb+srv://${credentials.auth.username}:${credentials.auth.password}@cluster0.0uknhzl.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${credentials.username}:${credentials.password}@cluster0.0uknhzl.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
