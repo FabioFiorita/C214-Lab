@@ -29,7 +29,15 @@ cd Aula6
 npm install
 ```
 
-4. Rode o projeto
+4. Crie o arquivo **_auth.json_** para autenticação do banco de dados
+```json
+{
+    "username": "<username>",
+    "password": "<password>"
+}
+```
+
+5. Rode o projeto
 ```bash
 npm start
 ```
