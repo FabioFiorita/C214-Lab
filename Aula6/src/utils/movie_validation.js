@@ -17,6 +17,12 @@ const create = {
         },
         type: 'string',
     },
+    movieProducer: {
+        presence: {
+            allowEmpty: false,
+        },
+        type: 'string',
+    },
 };
 
 const get = {

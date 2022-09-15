@@ -22,6 +22,7 @@ const MovieSchema = new Schema({
     },
     launchDate: String,
     mainActor: String,
+    movieProducer: String,
 });
 
 const MovieModel = mongoose.model('MovieModel', MovieSchema);
