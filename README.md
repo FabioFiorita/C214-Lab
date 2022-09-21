@@ -36,3 +36,4 @@ npm start
 -  [Aula 2 - Revisao de Orientacao a Objetos](Aula2)
 -  [Aula 3 - Gerência de dependencias](Aula3)
 -  [Aula 6 - API](Aula6)
+-  [Aula 7 - Teste unitário](Aula7)
