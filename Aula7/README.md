@@ -41,6 +41,11 @@ npm install
 ```bash
 npm start
 ```
+
+5. Teste o projeto
+```bash
+npm test
+```
 ## 💻 Como Rodar
 - [x] Cadastro de filme
 ```bash
