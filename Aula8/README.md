@@ -53,15 +53,15 @@ http://localhost:4000/car/create
 ```
 - [x] Busca de carros
 ```bash
-http://localhost:4000/movie/list
+http://localhost:4000/car/list
 ```
 - [x] Busca de carros por placa
 ```bash
-http://localhost:4000/movie/list?placa=AAA-0000
+http://localhost:4000/car/list?placa=AAA-0000
 ```
 - [x] Atualização de carro
 ```bash
-http://localhost:4000/movie/update
+http://localhost:4000/car/update
 ```
 ```json
 {
@@ -72,6 +72,6 @@ http://localhost:4000/movie/update
 ```
 - [x] Exclusão de carro
 ```bash
-http://localhost:4000/movie/delete?placa=AAA-0000
+http://localhost:4000/car/delete?placa=AAA-0000
 ```
 
