@@ -25,6 +25,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - run: cd Aula8
-    - run: npm i
-    - run: npm test
+    - name: Test with Maven
+      run: |
+        cd Aula8
+        npm i
+        npm test
