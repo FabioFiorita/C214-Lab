@@ -2,6 +2,7 @@
 
 API de carros
 
+[![Test CI](https://github.com/FabioFiorita/C214-Lab/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/FabioFiorita/C214-Lab/actions/workflows/node.js.yml)
 ![NPM version](https://img.shields.io/npm/v/npm?label=npm%20version&style=for-the-badge)
 
 
