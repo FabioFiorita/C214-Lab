@@ -2,6 +2,7 @@
 
 Códigos dos exercícios do laboratório da matéria de Engenharia de Software
 
+[![Test CI](https://github.com/FabioFiorita/C214-Lab/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/FabioFiorita/C214-Lab/actions/workflows/node.js.yml)
 ![GitHub repo size](https://img.shields.io/github/repo-size/fabiofiorita/C214-Lab?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/fabiofiorita/C214-Lab?style=for-the-badge)
 ![NPM version](https://img.shields.io/npm/v/npm?label=npm%20version&style=for-the-badge)
