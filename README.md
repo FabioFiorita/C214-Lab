@@ -10,7 +10,7 @@ Códigos dos exercícios do laboratório da matéria de Engenharia de Software
 
 - [C214-Lab](#c214-lab)
   - [⚙️ Instale antes de tentar executar os projetos)](#️-instale-antes-de-tentar-executar-os-projetos)
-  - [🚀️ Executando o projeto](#️-executando-o-projeto)
+  - [🚀️ Executando os projetos](#️-executando-os-projetos)
   - [📚 Aulas](#-aulas)
 
 ## ⚙️ Instale antes de tentar executar os projetos)
@@ -38,3 +38,5 @@ npm start
 -  [Aula 3 - Gerência de dependencias](Aula3)
 -  [Aula 6 - API](Aula6)
 -  [Aula 7 - Teste unitário](Aula7)
+-  [Aula 8 - Teste Mock](Aula8)
+-  [Aula 11 - Design Pattern](Aula11)
