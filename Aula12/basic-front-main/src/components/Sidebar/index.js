@@ -22,6 +22,14 @@ export default function Sidebar() {
                 <FaUserMinus color="white" size={24} />
                 Deletar
             </Link>
+            <Link to="/list">
+                <FaUserMinus color="white" size={24} />
+                Listar
+            </Link>
+            <Link to="/listByEmail">
+                <FaUserMinus color="white" size={24} />
+                Listar por email
+            </Link>
         </div>
     )
 }

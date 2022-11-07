@@ -30,6 +30,24 @@ const ClientUsers = {
             return e;
         }
     },
+
+    async getUsers() {
+        try {
+            const response = await client.get(`${userPath}/list`);
+            return response;
+        } catch (e) {
+            return e;
+        }
+    },
+
+    async getUser(data) {
+        try {
+            const response = await client.get(`${userPath}/get/${data.email}`);
+            return response;
+        } catch (e) {
+            return e;
+        }
+    }
 };
 
 export default ClientUsers;
