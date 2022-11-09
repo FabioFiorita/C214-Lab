@@ -1,54 +1,47 @@
-import { FaUserNinja } from 'react-icons/fa';
-import { useState } from 'react';
-import { toast } from 'react-toastify';
+import { FaUsers } from "react-icons/fa";
+import { useState } from "react";
+import { toast } from "react-toastify";
 
-import ClientUsers from '../../services/user.js';
+import ClientUsers from "../../services/user.js";
 
-import Sidebar from '../../components/Sidebar';
-import Title from '../../components/Title';
+import Sidebar from "../../components/Sidebar";
+import Title from "../../components/Title";
 
-import './style.css';
+import "./style.css";
 
 export default function List() {
+  const [users, setUsers] = useState([]);
 
-    const [users, setUsers] = useState([]);
+  async function handleGet(e) {
+    e.preventDefault();
 
-    async function handleGet(e) {
-        e.preventDefault();
-
-        const get = await ClientUsers.getUser(data);
-        if (update.status === 200) {
-            toast.success('Usuário criado com sucesso!');
-        } else {
-            toast.error('Ops algo deu errado!');
-        }
+    const update = await ClientUsers.getUsers();
+    if (update.status === 200) {
+      toast.success("Lista recebida com sucesso!");
+        setUsers(update.data);
+    } else {
+      toast.error("Ops algo deu errado!");
     }
+  }
+  const listItems = users.map((user) => {
+    return <li>{user}</li>;
+  });
 
-    return (
-        <div>
-            <Sidebar />
+  return (
+    <div>
+      <Sidebar />
 
-            <div className="content">
-                <Title name="Registrar novo usuário">
-                    <FaUserNinja size={30} />
-                </Title>
-
-                <div className="container">
-                    <form className="form-profile" onSubmit={handleSave}>
-                        
-                        <label>Nome</label>
-                        <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
-
-                        <label>E-mail</label>
-                        <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-
-                        <label>Senha</label>
-                        <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} />
-
-                        <button type="submit">Salvar</button>
-                    </form>
-                </div>
-            </div>
+      <div className="content">
+        <Title name="Listar usuários">
+          <FaUsers size={30} />
+        </Title>
+        <div className="container">
+        <form className="form-profile" onSubmit={handleGet}>
+            <button type="submit">Listar</button>
+        </form>
+          <ul> {listItems} </ul>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

@@ -5,6 +5,7 @@ import Create from '../pages/Create';
 import Update from '../pages/Update';
 import Delete from '../pages/Delete';
 import List from "../pages/List";
+import ListByEmail from "../pages/ListByEmail";
 
 export default function Routers() {
     return (
@@ -13,7 +14,7 @@ export default function Routers() {
             <Route exact path="/update" element={<Update />} />
             <Route exact path="/delete" element={<Delete />} />
             <Route exact path="/list" element={<List />} />
-            <Route exact path="/listUser" element={<ListByEmail />} />
+            <Route exact path="/listByEmail" element={<ListByEmail />} />
         </Routes>
     )
 }

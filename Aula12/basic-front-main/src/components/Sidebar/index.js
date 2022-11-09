@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaUserPlus, FaUserEdit, FaUserMinus } from "react-icons/fa";
+import { FaUserPlus, FaUserEdit, FaUserMinus, FaUsers, FaUser } from "react-icons/fa";
 
 import avatar from '../../assets/avatar.png';
 import './style.css';
@@ -23,11 +23,11 @@ export default function Sidebar() {
                 Deletar
             </Link>
             <Link to="/list">
-                <FaUserMinus color="white" size={24} />
+                <FaUsers color="white" size={24} />
                 Listar
             </Link>
             <Link to="/listByEmail">
-                <FaUserMinus color="white" size={24} />
+                <FaUser color="white" size={24} />
                 Listar por email
             </Link>
         </div>
