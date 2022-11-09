@@ -24,7 +24,7 @@ export default function List() {
     }
   }
   const listItems = users.map((user) => {
-    return <li>{user}</li>;
+    return <li>{user.nome}</li>;
   });
 
   return (
@@ -38,8 +38,8 @@ export default function List() {
         <div className="container">
         <form className="form-profile" onSubmit={handleGet}>
             <button type="submit">Listar</button>
-        </form>
           <ul> {listItems} </ul>
+        </form>
         </div>
       </div>
     </div>
